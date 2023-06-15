@@ -413,6 +413,41 @@ button:focus {
 }
 /* END RULES AND REGS 2 */
 
+/* START BLOCK-24 */
+
+.block-24 {
+	--block-background: white;
+	--block-text-color: var(--primary);
+	background: var(--block-background);
+	color: var(--block-text-color);
+}
+
+.block-24__logo {
+	flex: 0 0 auto;
+	padding: 25px;
+	margin: 0;
+	width: auto;
+	height: auto;
+	font-weight: 700;
+}
+
+@media (max-width: 600px) {
+	.block-24__logo {
+		padding: 15px 25px;
+	}
+}
+
+@media (min-width: 992px) {
+	.block-24__logo {
+		max-width: 300px;
+		padding: 0 3rem;
+		margin-top: 3rem;
+		white-space: nowrap;
+	}
+}
+
+/* END BLOCK-24 */
+
 .btn,
 .btn:focus,
 .btn:hover {
