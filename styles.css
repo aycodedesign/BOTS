@@ -499,6 +499,13 @@ button:focus {
 	color: var(--primary);
 }
 
+.block__title-inverted {
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 1.4;
+	color: var(--text-primary);
+}
+
 h1.block__title {
 	font-size: 3rem;
 	color: var(--secondary);
@@ -1588,7 +1595,7 @@ video {
 }
 
 .block-61 {
-	--block-background: white;
+	--block-background: var(--dropdown-background);
 	--block-text-color: var(--text-primary);
 	background: var(--block-background);
 	color: var(--block-text-color);
@@ -1606,11 +1613,21 @@ video {
 }
 
 .testimonial-card-1__paragraph {
-	font-size: 0.95rem;
+	font-size: 1.25rem;
 	opacity: 0.9;
 	line-height: 1.7;
 	flex-grow: 1;
 	padding-bottom: 1.5rem;
+}
+
+.testimonial-card-1__header {
+	color: var(--block-text-color);
+	font-weight: bold;
+	text-align: center;
+}
+
+.block-61 > h3 {
+	color: red;
 }
 
 .testimonial-card-1__quote-symbol {
