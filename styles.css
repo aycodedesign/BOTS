@@ -95,7 +95,7 @@ html {
 
 /* START TABLE */
 
-table {
+table#dates {
 	width: 100%;
 	/* display: inline-block; */
 	overflow-x: auto;
@@ -202,6 +202,9 @@ th {
 }
 
 /* END ANIMATION */
+
+table#price {
+}
 
 :root {
 	--primary: #bd12f1;
@@ -416,7 +419,23 @@ button:focus {
 /* START BLOCK-24 */
 
 .block-24 {
-	--block-background: white;
+	--block-background: var(--secondary);
+	--block-text-color: var(--primary);
+	background: var(--block-background);
+	color: var(--block-text-color);
+}
+
+.block-24__logo {
+	flex: 0 0 auto;
+	padding: 25px;
+	margin: 0;
+	width: auto;
+	height: auto;
+	font-weight: 700;
+}
+
+.block-24__inverted {
+	--block-background: var(--text-primary);
 	--block-text-color: var(--primary);
 	background: var(--block-background);
 	color: var(--block-text-color);
@@ -503,7 +522,7 @@ button:focus {
 	font-size: 3rem;
 	font-weight: 700;
 	line-height: 1.4;
-	color: var(--text-primary);
+	color: var(--secondary);
 }
 
 h1.block__title {
@@ -1626,8 +1645,14 @@ video {
 	text-align: center;
 }
 
-.block-61 > h3 {
-	color: red;
+li.testimonial-card-1__paragraph > span.age {
+	font-size: 1.75rem;
+	font-weight: 600;
+}
+
+li.testimonial-card-1__paragraph > span.age-description {
+	font-style: italic;
+	opacity: 0.6;
 }
 
 .testimonial-card-1__quote-symbol {
