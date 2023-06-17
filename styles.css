@@ -141,10 +141,9 @@ th {
 
 /* Apply responsive styles for smaller screens */
 @media screen and (max-width: 600px) {
-	table {
+	/* table {
 		display: block;
 		overflow-x: auto;
-		/* Enable horizontal scrolling on small screens */
 	}
 
 	thead,
@@ -153,7 +152,6 @@ th {
 	td,
 	th {
 		display: block;
-		/* display: flex; */
 	}
 
 	tr {
@@ -174,6 +172,21 @@ th {
 		font-weight: bold;
 		margin-right: 10px;
 		width: 50%;
+	} */
+
+	table {
+		display: block;
+		overflow-x: auto;
+	}
+
+	thead {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	th {
+		flex: 1 0 auto;
+		width: auto;
 	}
 }
 
@@ -202,9 +215,6 @@ th {
 }
 
 /* END ANIMATION */
-
-table#price {
-}
 
 :root {
 	--primary: #bd12f1;
