@@ -219,31 +219,38 @@ th {
 /* START PRICING TABLE */
 
 table.pricing {
-	border: 1px solid #b3adad;
 	border-collapse: collapse;
 	padding: 5px;
 	margin: 0 auto;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.083);
 }
 
 table.pricing th {
-	border: 1px solid #b3adad;
 	padding: 5px;
-	background: #f0f0f0;
-	color: #313030;
+	background: #bb13b5;
+	color: var(--primary-invert);
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 table.pricing td {
-	border: 1px solid #b3adad;
+	border: 1px solid #b3adad7b;
 	text-align: center;
 	padding: 5px;
-	background: #ffffff;
+	background: white;
 	color: #313030;
+	font-size: 1.25rem;
+}
+
+table.pricing td span.description {
+	font-size: 1rem;
+	font-style: italic;
+	opacity: 0.7;
 }
 
 @media screen and (max-width: 600px) {
 	table.pricing {
-		border: 1px solid #b3adad;
+		border: 1px solid #b3adad7b;
 		border-collapse: collapse;
 		padding: 0;
 		margin: 0 auto;
@@ -265,9 +272,9 @@ table.pricing td {
 /* END PRICING TABLE */
 
 :root {
-	--primary: #bd12f1;
+	--primary: #bb13b5;
 	--secondary: #1c1a1a;
-	--primary-invert: #fff;
+	--primary-invert: #f7f7f7;
 	--secondary-invert: #000;
 	--gradient-primary: linear-gradient(230deg, #c33381, #4c12f1);
 	--gradient-secondary: linear-gradient(
