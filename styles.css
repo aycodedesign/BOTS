@@ -42,6 +42,10 @@ html {
 	font-size: 60px;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /* START SCROLL BUTTON */
 
 .scroll-down {
@@ -414,73 +418,6 @@ button:focus {
 	left: 0;
 }
 
-/* START RULES & REGULATIONS */
-
-.column-container {
-	/* max-width: 960px; */
-	margin: 0 auto;
-	padding: 10px;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.column {
-	width: 50%;
-	padding: 60px;
-	box-sizing: border-box;
-	text-align: left;
-}
-
-.column .section p {
-	list-style-type: circle;
-}
-
-@media screen and (max-width: 600px) {
-	.column {
-		width: 100%;
-	}
-}
-
-.column-header {
-	font-size: 2.5rem;
-	font-weight: bold;
-	margin-bottom: 10px;
-	color: var(--primary);
-}
-
-.column-section {
-	margin-bottom: 50px;
-}
-
-/* END RULES & REGULATIONS */
-
-/* START RULES AND REGS 2 */
-
-.block-26 {
-	--block-background: white;
-	--block-text-color: var(--text-primary);
-	background: var(--block-background);
-	color: var(--block-text-color);
-	/* padding-top: 5.8rem;
-	padding-bottom: 5.8rem; */
-}
-
-.block-26__title {
-	font-size: 2.1rem;
-	font-weight: 600;
-}
-
-.block-26__heading {
-	font-size: 1.1rem;
-	font-weight: 600;
-	margin-bottom: 0.5rem;
-}
-
-.block-26__item {
-	margin-bottom: 0.4rem;
-}
-/* END RULES AND REGS 2 */
-
 /* START BLOCK-24 */
 
 .block-24 {
@@ -496,7 +433,6 @@ button:focus {
 	margin: 0;
 	width: auto;
 	height: auto;
-	font-weight: 700;
 }
 
 .block-24__inverted {
@@ -512,7 +448,7 @@ button:focus {
 	margin: 0;
 	width: auto;
 	height: auto;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 @media (max-width: 600px) {
@@ -531,6 +467,47 @@ button:focus {
 }
 
 /* END BLOCK-24 */
+
+/* START JUDGE ADJUDICATION */
+
+/*------------------------------*/
+/*--Section Name----------------*/
+/*------------------------------*/
+.block-39 {
+	--block-background: white;
+	--block-text-color: var(--secondary);
+	background: var(--block-background);
+	color: var(--block-text-color);
+}
+
+.content-block {
+	text-align: initial;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+	.content-block {
+		width: 90%;
+		color: var(--secondary);
+	}
+}
+
+.content-block__title {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	line-height: 1.5;
+	color: var(--primary);
+}
+
+.content-block__paragraph {
+	font-size: 1rem;
+	opacity: 0.9;
+	line-height: 1.7;
+}
+
+/* END JUDGE ADJUDICATION */
 
 .btn,
 .btn:focus,
