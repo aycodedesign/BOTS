@@ -1679,7 +1679,7 @@ video {
 }
 
 .block-61 {
-	--block-background: var(--dropdown-background);
+	--block-background: var(--secondary);
 	--block-text-color: var(--text-primary);
 	background: var(--block-background);
 	color: var(--block-text-color);
@@ -1693,14 +1693,15 @@ video {
 	padding: 3rem 2.2rem 2.2rem 2.2rem;
 	border-radius: 5px;
 	position: relative;
-	background: var(--block-background);
-	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.09);
+	background: var(--primary-invert);
+	box-shadow: 5px 5px 10px #f7f7f724;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 }
 
 .testimonial-card-1__paragraph {
+	color: var(--secondary);
 	font-size: 1.25rem;
 	opacity: 0.9;
 	line-height: 1.7;
@@ -1709,7 +1710,7 @@ video {
 }
 
 .testimonial-card-1__header {
-	color: var(--block-text-color);
+	color: var(--primary);
 	font-weight: bold;
 	text-align: center;
 }
