@@ -246,6 +246,24 @@ table.pricing td {
 	font-size: 1.25rem;
 }
 
+#gold {
+	background-color: gold;
+	color: var(--primary-invert);
+	font-weight: bold;
+}
+
+#silver {
+	background-color: silver;
+	color: var(--primary-invert);
+	font-weight: bold;
+}
+
+#bronze {
+	background-color: #cd7f32;
+	color: var(--primary-invert);
+	font-weight: bold;
+}
+
 table.pricing td span.description {
 	font-size: 1rem;
 	font-style: italic;
@@ -1550,6 +1568,11 @@ video {
 .block-33__img {
 	width: 100%;
 	border-radius: 10px;
+}
+
+.block-33 h3 {
+	font-weight: 600;
+	font-size: 1.5rem;
 }
 
 .block-8-scr {
