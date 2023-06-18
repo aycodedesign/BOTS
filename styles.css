@@ -247,19 +247,29 @@ table.pricing td {
 }
 
 #gold {
-	background-color: gold;
+	background: linear-gradient(
+		50deg,
+		rgb(254, 171, 27),
+		gold,
+		rgb(254, 171, 27)
+	);
 	color: var(--primary-invert);
 	font-weight: bold;
 }
 
 #silver {
-	background-color: silver;
+	background: linear-gradient(
+		50deg,
+		rgb(163, 163, 163),
+		silver,
+		rgb(163, 163, 163)
+	);
 	color: var(--primary-invert);
 	font-weight: bold;
 }
 
 #bronze {
-	background-color: #cd7f32;
+	background: linear-gradient(50deg, #cd7f32, #eba25a, #cd7f32);
 	color: var(--primary-invert);
 	font-weight: bold;
 }
