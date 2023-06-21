@@ -46,6 +46,16 @@ span.bold {
 	display: inline-block;
 }
 
+.signature {
+	font-family: "Dancing Script", cursive;
+	font-size: 1.75rem !important;
+	margin: 0 auto;
+}
+
+hr {
+	width: 75% !important;
+}
+
 /* START SCROLL BUTTON */
 
 .scroll-down {
@@ -604,7 +614,7 @@ h1.block__title {
 	font-size: 1.1rem;
 	line-height: 1.5;
 	opacity: 0.9;
-	width: 90%;
+	/* width: 90%; */
 	color: var(--secondary);
 }
 
@@ -1817,9 +1827,16 @@ h4.rules-regs__title {
 	color: var(--primary);
 }
 
+.description {
+	font-size: 1rem;
+	font-style: italic;
+	opacity: 0.8;
+}
+
 @media screen and (max-width: 600px) {
 	h4.rules-regs__title {
 		text-align: left;
+		padding-left: 1rem;
 	}
 
 	.rules-regs {
