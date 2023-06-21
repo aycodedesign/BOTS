@@ -132,3 +132,10 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 });
 
+// Smooth scroll to the target section
+document.querySelector('a[href="#section"]').addEventListener('click', function (e) {
+	e.preventDefault(); // Prevent default link behavior
+	document.querySelector(this.getAttribute('href')).scrollIntoView({
+		behavior: 'smooth'
+	});
+});

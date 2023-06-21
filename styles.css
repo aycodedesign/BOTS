@@ -41,8 +41,9 @@ html {
 	display: inline;
 }
 
-.bold {
-	font-weight: bold;
+span.bold {
+	font-weight: 600;
+	display: inline-block;
 }
 
 /* START SCROLL BUTTON */
@@ -183,7 +184,7 @@ th {
 	} */
 
 	table {
-		display: block;
+		/* display: block; */
 		overflow-x: auto;
 	}
 
@@ -1435,6 +1436,8 @@ video {
 	.hero__title {
 		font-size: 3.25rem;
 		line-height: 1.17;
+		margin-top: 6rem;
+		/* centers vertically on screen */
 	}
 
 	.hero__paragraph {
@@ -1802,8 +1805,11 @@ li.testimonial-card-1__paragraph > span.age-description {
 }
 
 .rules-regs__item {
-	margin-bottom: 1rem;
+	/* margin-bottom: 1rem; */
 	font-size: 1.25rem;
+	line-height: 2rem;
+	text-align: justify;
+	padding-right: 1rem;
 }
 
 h4.rules-regs__title {
@@ -1824,7 +1830,7 @@ h4.rules-regs__title {
 /* END RULES & REGULATIONS */
 
 .block-32 {
-	--block-background: var(--secondary);
+	--block-background: black;
 	--block-text-color: var(--primary-invert);
 	background: var(--block-background);
 	color: var(--block-text-color);
