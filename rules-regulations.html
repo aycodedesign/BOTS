@@ -39,184 +39,60 @@
 		<!-- HERO ---------------->
 		<!------------------------------>
 		<header class="hero container-fluid position-relative">
-			<div class="hero__content container">
-				<div class="fixed-nav-container">
-					<nav class="hero-nav position-relative container mx-auto px-0">
-						<ul class="nav w-100 list-unstyled align-items-center p-0">
-							<li class="hero-nav__item">
-								<a href="./index.html" class="glow-link">
-									<img
-										class="hero-nav__logo"
-										src="./img/BOTS-circle_white.svg"
-										change-src-onscroll="./img/BOTS-circle_white.svg"
-										alt="BOTS logo white circular"
-									/>
-								</a>
-								<!-- Don't remove this empty span -->
-								<span class="mx-2"></span>
-							</li>
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="./index.html"
+					><img
+						src="./img/BOTS-circle_white.svg"
+						width="100"
+						height="100"
+						alt="BOTS circular white logo"
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarTogglerDemo02"
+					aria-controls="navbarTogglerDemo02"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-							<li class="hero-nav__item">
-								<a href="./about.html" class="hero-nav__link">About</a>
-							</li>
-							<li
-								javascript-language-selector=""
-								class="
-									hero-nav__item
-									hero-nav__item--with-dropdown
-									hero-nav__item--dropdown-right
-									hero-nav__item--lg-dropdown-left
-									mx-3 mx-lg-2
-									flex-grow-1 flex-lg-grow-0
-									d-flex
-									justify-content-end
-								"
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item active">
+							<a class="nav-link" href="#"
+								>Home <span class="sr-only">(current)</span></a
 							>
-								<span class="hero-nav__link" tabindex="1" role="button">
-									<span class="mr-2">Tour Information</span>
-									<svg
-										class="hero-nav__item-chevron bi bi-chevron-down"
-										width=".8em"
-										height=".8em"
-										viewBox="0 0 16 16"
-										fill="currentColor"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											fill-rule="evenodd"
-											d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-										></path>
-									</svg>
-								</span>
-								<div
-									class="
-										hero-nav__dropdown
-										dropdown
-										dropdown--of-1-columns
-										dropdown--language-selector
-										dropdown--important
-										p-3
-									"
-								>
-									<div class="row flex-wrap">
-										<div class="col-lg-12">
-											<a href="./rules-regulations.html" class="no-underline">
-												<div class="dropdown__item dropdown__link">
-													<span class="mx-2"></span>
-													<span class="dropdown__item-title"
-														>Rules & Regulations</span
-													>
-												</div>
-											</a>
-
-											<div
-												class="
-													dropdown__link dropdown__link--selected
-													align-items-center
-												"
-											>
-												<!-- Don't remove this empty "span" -->
-												<span class="mx-2"></span>
-												<!-- ------------------------------ -->
-												<div class="dropdown__item">
-													<a href="https://www.twitter.com">
-														<span class="dropdown__item-title">
-															Tour Dates
-														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li
-								id="hero-menu"
-								class="
-									flex-grow-1
-									hero__nav-list hero__nav-list--mobile-menu
-									ft-menu
-								"
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link disabled"
+								href="#"
+								tabindex="-1"
+								aria-disabled="true"
+								>Disabled</a
 							>
-								<ul
-									class="
-										hero__menu-content
-										nav
-										flex-column flex-lg-row
-										ft-menu__slider
-										animated
-										list-unstyled
-										p-2 p-lg-0
-									"
-								>
-									<li class="flex-grow-1">
-										<ul
-											class="
-												nav nav--lg-side
-												flex-column-reverse flex-lg-row-reverse
-												list-unstyled
-												align-items-center
-												p-0
-											"
-										>
-											<li class="flex-grow-1">
-												<ul
-													class="
-														nav nav--lg-side
-														flex-column-reverse flex-lg-row-reverse
-														list-unstyled
-														align-items-center
-														p-0
-													"
-												>
-													<li class="hero-nav__item">
-														<a
-															href="https://tourprosoftware.com/"
-															target="_blank"
-															class="neon-button"
-															>REGISTER</a
-														>
-													</li>
-												</ul>
-											</li>
-											<li class="hero-nav__item">
-												<a href="./competition.html" class="hero-nav__link"
-													>Competition</a
-												>
-											</li>
-										</ul>
-									</li>
-								</ul>
-								<button close-nav-menu="" class="ft-menu__close-btn animated">
-									<svg
-										class="bi bi-x"
-										width="1em"
-										height="1em"
-										viewBox="0 0 16 16"
-										fill="currentColor"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											fill-rule="evenodd"
-											d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
-											clip-rule="evenodd"
-										></path>
-										<path
-											fill-rule="evenodd"
-											d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
-											clip-rule="evenodd"
-										></path>
-									</svg>
-								</button>
-							</li>
-							<li class="hero-nav__item d-lg-none d-flex flex-row-reverse">
-								<button open-nav-menu="" class="text-center px-2">
-									<i class="fas fa-bars"></i>
-								</button>
-							</li>
-						</ul>
-					</nav>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input
+							class="form-control mr-sm-2"
+							type="search"
+							placeholder="Search"
+						/>
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+							Search
+						</button>
+					</form>
 				</div>
+			</nav>
+
+			<div class="hero__content container">
 				<div class="hero__video-container">
 					<img src="./img/hero/hero_rules-regs.png" alt="Rules & Regs hero" />
 				</div>
@@ -353,11 +229,12 @@
 									it to a more fitting division. Age is calculated as of the
 									first of the current calendar year. Studios must purchase
 									additional time upon registration if routines exceed the time
-									limit. The fee is $15 per dancer, per minute. 
-									<p class="description">*routines must
-									be registered before the discount deadline by the specific
-									city event date</p>
-									
+									limit. The fee is $15 per dancer, per minute.
+								</p>
+
+								<p class="description">
+									*routines must be registered before the discount deadline by
+									the specific city event date
 								</p>
 							</div>
 						</div>
@@ -376,20 +253,35 @@
 						<div class="row">
 							<div class="col-lg-12 mb-4">
 								<!-- <h5 class="rules-regs__heading">Colorado Office</h5> -->
-								<p class=" flex-column rules-regs__item">
-									Each dancer will be issued a wristband at registration with the color indicating the division in which the dancer is competing. A separate wristband will also be issued if the dancer is also participating in the Workshop series. Entry limits will vary by event. Please look at the corresponding city page for specific entry limits for your tour city. Studio Directors are welcome to move dancers to a different age group for the Workshops if space is available. 
+								<p class="flex-column rules-regs__item">
+									Each dancer will be issued a wristband at registration with
+									the color indicating the division in which the dancer is
+									competing. A separate wristband will also be issued if the
+									dancer is also participating in the Workshop series. Entry
+									limits will vary by event. Please look at the corresponding
+									city page for specific entry limits for your tour city. Studio
+									Directors are welcome to move dancers to a different age group
+									for the Workshops if space is available.
 								</p>
 								<p class="flex-column rules-regs__item">
-										<strong>Keep It Clean: </strong>BOTS is a family event, and inappropriate
-										routines will be penalized. Judges may deduct 5 points from
-										routines they deem not "family friendly," and
-										disqualification is at the judges' discretion.
+									<strong>Keep It Clean: </strong>BOTS is a family event, and
+									inappropriate routines will be penalized. Judges may deduct 5
+									points from routines they deem not "family friendly," and
+									disqualification is at the judges' discretion.
 								</p>
 								<p class="flex-column rules-regs__item">
-									<strong>Props: </strong>Using fire, weapons, alcohol or drug paraphernalia, fog machines and hazers, liquids or messy materials, and animals is prohibited. Props must be approved by the BOTS team and set up and removed within one minute before and after the routine. If more than one minute is needed for set up and strike, a fee of $10 per minute per dancer will be added. 
+									<strong>Props: </strong>Using fire, weapons, alcohol or drug
+									paraphernalia, fog machines and hazers, liquids or messy
+									materials, and animals is prohibited. Props must be approved
+									by the BOTS team and set up and removed within one minute
+									before and after the routine. If more than one minute is
+									needed for set up and strike, a fee of $10 per minute per
+									dancer will be added.
 								</p>
 								<p class="flex-column rules-regs__item">
-									<strong>Stage Cleanliness:</strong> If the stage becomes littered during a routine, it should be cleaned immediately after is over by the responsible studio. 
+									<strong>Stage Cleanliness:</strong> If the stage becomes
+									littered during a routine, it should be cleaned immediately
+									after is over by the responsible studio.
 								</p>
 							</div>
 						</div>
