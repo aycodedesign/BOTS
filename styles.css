@@ -163,7 +163,7 @@ tr {
 }
 
 .table-loc span {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 .table-container {
@@ -184,39 +184,6 @@ th {
 
 /* Apply responsive styles for smaller screens */
 @media screen and (max-width: 600px) {
-	/* table {
-		display: block;
-		overflow-x: auto;
-	}
-
-	thead,
-	tbody,
-	tr,
-	td,
-	th {
-		display: block;
-	}
-
-	tr {
-		margin-bottom: 10px;
-	}
-
-	td,
-	th {
-		display: flex;
-		align-items: center;
-		border: none;
-	}
-
-	td::before,
-	th::before {
-		content: attr(data-label);
-		flex-basis: 30%;
-		font-weight: bold;
-		margin-right: 10px;
-		width: 50%;
-	} */
-
 	table {
 		/* display: block; */
 		overflow-x: auto;
@@ -233,15 +200,15 @@ th {
 	}
 
 	td.table-date {
-		font-size: 1.5rem !important;
+		font-size: 1.25rem !important;
 	}
 
 	.table-loc span {
-		font-size: 1.15rem;
+		font-size: 1rem;
 	}
 
 	td.table-loc {
-		font-size: 1rem !important;
+		font-size: 0.75rem !important;
 	}
 }
 
