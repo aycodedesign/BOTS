@@ -1220,6 +1220,21 @@ li.testimonial-card-1__paragraph > span.age-description {
 	left: 30px;
 }
 
+@media screen and (max-width: 600px) {
+	li.testimonial-card-1__paragraph > span.age {
+		font-size: 1.25rem;
+		font-weight: 600;
+	}
+
+	li.testimonial-card-1__paragraph > span.age-description {
+		font-size: 1rem;
+	}
+
+	.testimonial-card-1__paragraph {
+		padding-bottom: 1rem;
+	}
+}
+
 /* .block-61-person {
 	display: flex;
 	align-items: center;
