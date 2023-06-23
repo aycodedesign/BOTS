@@ -916,7 +916,7 @@ video {
 
 @media (max-width: 600px) {
 	.hero__title {
-		font-size: 2.5rem;
+		font-size: 2rem;
 		line-height: 1.17;
 		margin-top: 6rem;
 		/* centers vertically on screen */
