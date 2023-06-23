@@ -56,6 +56,11 @@ hr {
 	width: 75% !important;
 }
 
+.margin-zero {
+	margin: 0 auto !important;
+	border: 1px red solid;
+}
+
 /* START SCROLL BUTTON */
 
 .scroll-down {
@@ -389,6 +394,7 @@ button:focus {
 	outline: none;
 	cursor: pointer;
 	transition: color 0.3s, border-color 0.3s, box-shadow 0.3s, border-radius 0.3s; /* Added border-radius transition */
+	justify-content: end;
 }
 
 .neon-button::before {
@@ -403,7 +409,6 @@ button:focus {
 	opacity: 0;
 	pointer-events: none;
 	transition: opacity 0.3s, border-color 0.3s;
-	z-index: 2;
 }
 
 .neon-button:hover {
@@ -683,6 +688,7 @@ h2https://github.com/aycodedesign/bots.git.block__title
 
 button.neon-button a {
 	color: var(--primary-invert);
+	padding: 0.75rem 2rem;
 }
 
 a.nav-link:hover,
@@ -752,8 +758,7 @@ button.navbar-toggler {
 
 	.neon-button {
 		margin: 3rem 0 !important;
-		left: 50%;
-		transform: translateX(-50%);
+		padding: 0.75rem 4rem;
 	}
 }
 
