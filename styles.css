@@ -609,8 +609,7 @@ button:focus {
 	color: var(--primary-invert);
 }
 
-h2https://github.com/aycodedesign/bots.git.block__title
-{
+h2.block__title {
 	/* font-size: 3rem; */
 	color: var(--secondary);
 }
@@ -694,6 +693,10 @@ h2https://github.com/aycodedesign/bots.git.block__title
 	padding: 0 5rem;
 }
 
+.navbar-brand {
+	padding: 0.5rem 0;
+}
+
 button.neon-button a {
 	color: var(--primary-invert);
 	padding: 0.75rem 2rem;
@@ -739,6 +742,19 @@ button.navbar-toggler {
 	margin-right: -3rem !important;
 }
 
+@media (min-width: 601px) and (max-width: 991px) {
+	.navbar {
+		margin: 0 auto;
+		padding-left: 0 4rem;
+	}
+
+	a > img {
+		width: 50px;
+		height: 50px;
+		margin: 0 0 0 -2rem !important;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.navbar {
 		margin: 0 auto;
@@ -746,9 +762,9 @@ button.navbar-toggler {
 	}
 
 	a > img {
-		weight: 50px;
+		width: 50px;
 		height: 50px;
-		margin: 0.5rem 0 0.5rem -4rem !important;
+		margin: 0 0 0 -4rem !important;
 	}
 
 	button a {
@@ -887,7 +903,7 @@ video {
 	top: -25%;
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	.hero__body {
 		/* padding-top: 4rem;
 		padding-bottom: 7rem; */
@@ -897,14 +913,28 @@ video {
 		left: 50%; */
 		top: 50%;
 	}
+
+	.hero__title {
+		/* font-size: 2.5rem; */
+		font-size: 6rem;
+		line-height: 1.17;
+		/* top: 50%; */
+		/* left: 50%;
+		transform: translate(-50%, -50%); */
+		/* TURNED OFF DUE TO ANIMATE-TEXT */
+	}
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+	.hero__title {
+		font-size: 5rem;
+	}
 }
 
 @media (max-width: 600px) {
 	.hero__title {
 		font-size: 2rem;
 		line-height: 1.17;
-		/* margin-top: 6rem; */
-		/* centers vertically on screen */
 	}
 
 	.hero__body {
@@ -923,34 +953,9 @@ video {
 	}
 }
 
-@media (min-width: 768px) {
-	.hero__title {
-		font-size: 6rem;
-	}
-}
-
-@media (min-width: 992px) {
-	.hero__title {
-		/* font-size: 2.5rem; */
-		font-size: 6rem;
-		line-height: 1.17;
-		/* top: 50%; */
-		/* left: 50%;
-		transform: translate(-50%, -50%); */
-		/* TURNED OFF DUE TO ANIMATE-TEXT */
-	}
-
-	.hero__paragraph {
-		font-size: 1.2rem;
-		width: 75%;
-	}
-}
-
-@media (min-width: 1200px) {
-	.hero__title {
-		font-size: 6rem;
-		line-height: 1.17;
-	}
+.hero__paragraph {
+	font-size: 1.2rem;
+	width: 75%;
 }
 
 @media screen and (min-width: 992px) {
@@ -1315,7 +1320,22 @@ h4.rules-regs__title {
 	opacity: 0.8;
 }
 
-@media screen and (max-width: 600px) {
+@media (min-width: 601px) and (max-width: 991px) {
+	h4.rules-regs__title {
+		text-align: left;
+		padding-left: 1rem;
+	}
+
+	.rules-regs {
+		padding-top: 2rem;
+	}
+
+	.block-33 {
+		padding-top: 2rem;
+	}
+}
+
+@media (max-width: 600px) {
 	h4.rules-regs__title {
 		text-align: left;
 		padding-left: 1rem;
