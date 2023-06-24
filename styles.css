@@ -366,7 +366,7 @@ button:focus {
 	transition: 0.2s all;
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	.btn {
 		padding: 0.9rem 2rem;
 		width: 25%;
@@ -374,7 +374,15 @@ button:focus {
 	}
 }
 
-@media (max-width: 600px) {
+@media screen and (min-width: 601px) {
+	.btn {
+		padding: 0.9rem 1.5rem;
+		width: 40%;
+		margin: 1rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
 	.btn {
 		padding: 0.9rem 2rem;
 		width: 75%;
@@ -801,12 +809,10 @@ button.navbar-toggler {
 }
 
 .hero__body {
-	padding-top: 2rem;
-	padding-bottom: 3rem;
+	/* padding-top: 2rem;
+	padding-bottom: 3rem; */
 	position: relative;
-	/* height: 700px; */
-	/* height: 75%; */
-	/* video height */
+	top: 50%;
 	z-index: 1;
 }
 
@@ -884,12 +890,12 @@ video {
 @media (min-width: 992px) {
 	.hero__body {
 		/* padding-top: 4rem;
-		padding-bottom: 7rem;
-		position: relative; */
-		position: absolute;
-		transform: translateX(-50%);
-		left: 50%;
-		top: 30%;
+		padding-bottom: 7rem; */
+		position: relative;
+		/* position: absolute; */
+		/* transform: translateX(-50%);
+		left: 50%; */
+		top: 50%;
 	}
 }
 
@@ -897,14 +903,14 @@ video {
 	.hero__title {
 		font-size: 2rem;
 		line-height: 1.17;
-		margin-top: 6rem;
+		/* margin-top: 6rem; */
 		/* centers vertically on screen */
 	}
 
 	.hero__body {
 		/* padding-top: 10rem; */
 		position: relative;
-		top: 25%;
+		top: 50%;
 	}
 
 	.hero__paragraph {
