@@ -29,6 +29,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+.outline {
+	color: red;
+	background: blue;
+}
+
 /* .border {
 	border: 1px red solid;
 } */
@@ -1068,6 +1073,11 @@ video {
 }
 
 .block-33 h3 {
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.inline-h3 {
 	font-weight: 600;
 	font-size: 1.5rem;
 }
