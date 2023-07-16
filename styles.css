@@ -442,6 +442,21 @@ table.age td {
 	}
 }
 
+table.adjudication {
+	border-collapse: collapse;
+	padding: 5px;
+	margin: 0 auto;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.083);
+}
+
+table.adjudication th {
+	padding: 5px;
+	background: #bb13b5;
+	color: var(--primary-invert);
+	text-align: center;
+	font-size: 1.5rem;
+}
+
 table.adjudication td {
 	border: 1px solid #b3adad7b;
 	text-align: left;
@@ -452,22 +467,22 @@ table.adjudication td {
 }
 
 @media screen and (max-width: 1600px) {
-	table.age td.first {
-		padding-left: 100px;
+	table.adjudication td.first {
+		padding-left: 50px;
 	}
 
-	table.age td.second {
+	table.adjudication td.second {
 		padding-left: 100px;
 	}
 }
 
 @media screen and (max-width: 1199px) {
 	table.adjudication td.first {
-		padding-left: 75px;
+		padding-left: 40px;
 	}
 
 	table.adjudication td.second {
-		padding-left: 75px;
+		padding-left: 65px;
 	}
 }
 
@@ -493,7 +508,7 @@ table.adjudication td {
 
 @media screen and (max-width: 600px) {
 	table.adjudication td.first {
-		padding-left: 50px;
+		padding-left: 40px;
 	}
 
 	table.adjudication td.second {
