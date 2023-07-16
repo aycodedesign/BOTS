@@ -1659,13 +1659,22 @@ h4.rules-regs__title {
 
 /* START CONTACT */
 
-.block-68 {
+.block-26 {
 	--block-background: var(--secondary);
 	--block-text-color: var(--primary-invert);
 	background: var(--block-background);
 	color: var(--block-text-color);
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
 }
 
+.block-26 h2 {
+	font-weight: bold;
+	color: var(--primary);
+}
 /* END CONTACT */
 
 /* START FOOTER */
