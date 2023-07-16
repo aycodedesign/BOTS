@@ -66,11 +66,6 @@
 
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mr-auto justify-content-center mt-md-3">
-								<li class="nav-item active">
-									<a class="nav-link" href="./about.html"
-										>About<span class="sr-only">(current)</span></a
-									>
-								</li>
 								<!-- <li class="nav-item">
 							<a class="nav-link" href="#">Link</a>
 						</li> -->
@@ -84,25 +79,63 @@
 										aria-haspopup="true"
 										aria-expanded="false"
 									>
-										Tour Information
+										TOUR
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="./rules-regulations.html"
-											>Rules & Regulations</a
-										>
 										<a
 											class="dropdown-item disabled"
 											href="./tour-dates.html"
 											aria-disabled="true"
-											>Tour Dates</a
+											>TOUR DATES</a
 										>
+										<a class="dropdown-item" href="./competition.html"
+											>COMPETITION INFO & FEES</a
+										>
+
 										<!-- <div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="#">Something else here</a> -->
 									</div>
 								</li>
+								<li class="nav-item active">
+									<a class="nav-link" href="./about.html"
+										>THE CREW<span class="sr-only">(current)</span></a
+									>
+								</li>
+
+								<li class="nav-item dropdown">
+									<a
+										class="nav-link dropdown-toggle"
+										href="#"
+										id="navbarDropdown"
+										role="button"
+										data-toggle="dropdown"
+										aria-haspopup="true"
+										aria-expanded="false"
+									>
+										MEDIA
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a
+											class="dropdown-item disabled"
+											href="./tour-dates.html"
+											aria-disabled="true"
+											>PHOTO & VIDEO</a
+										>
+										<a
+											class="dropdown-item disabled"
+											href="./competition.html"
+											aria-disabled="true"
+											>LIVESTREAM</a
+										>
+
+										<!-- <div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a> -->
+									</div>
+								</li>
+
 								<li class="nav-item mb-sm-3">
-									<a class="nav-link" href="./competition.html" tabindex="-1"
-										>Competition</a
+									<a class="nav-link" href="./contact.html" tabindex="-1"
+										>CONTACT</a
 									>
 								</li>
 							</ul>
@@ -140,63 +173,53 @@
 					<thead>
 						<tr>
 							<th>CATEGORY</th>
-							<th>FEE<br /></th>
-							<th>TIME LIMIT<br /></th>
+							<th>FEE</th>
+							<th>TIME LIMIT</th>
 							<th># OF DANCERS</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td><strong>&nbsp;Solo</strong> <br /></td>
-							<td>3 min <br /></td>
-							<td>$160 <br /></td>
-							<td>1</td>
+							<td class="first"><strong>Solo</strong></td>
+							<td class="second">3 min</td>
+							<td class="third">$160</td>
+							<td class="fourth">1</td>
 						</tr>
 						<tr>
-							<td><strong>&nbsp;Duo/Trio</strong><br /></td>
-							<td>3-4 min <br /></td>
-							<td>$85</td>
-							<td>2/3</td>
+							<td class="first"><strong>Duo/Trio</strong></td>
+							<td class="second">3-4 min</td>
+							<td class="third">$85</td>
+							<td class="fourth">2/3</td>
 						</tr>
 						<tr>
-							<td>
-								<strong>&nbsp;Group</strong><br /><span class="description"
-									>(4-9 dancers)</span
-								><br />
+							<td class="first"><strong>Group</strong></td>
+							<td class="second">3-4 min</td>
+							<td class="third">$65</td>
+							<td class="fourth">4 - 9</td>
+						</tr>
+						<tr>
+							<td class="first">
+								<strong>Large Group</strong>
 							</td>
-							<td>3-4 min <br /></td>
-							<td>$65</td>
-							<td>4 - 9</td>
+							<td class="second">3-4 min</td>
+							<td class="third">$65</td>
+							<td class="fourth">10 - 17</td>
 						</tr>
 						<tr>
-							<td>
-								<strong>&nbsp;Large Group</strong><br /><span
-									class="description"
-									>(10-17 dancers)</span
-								><br />
+							<td class="first">
+								<strong>Mega Group</strong>
 							</td>
-							<td>&nbsp;3-4 min</td>
-							<td>$65 <br /></td>
-							<td>10 - 17</td>
+							<td class="second">3-4 min</td>
+							<td class="third">$65</td>
+							<td class="fourth">18 - 29</td>
 						</tr>
 						<tr>
-							<td>
-								<strong>&nbsp;Mega Group</strong><br /><span class="description"
-									>(18-29 dancers)</span
-								><br />
+							<td class="first">
+								<strong>Mega Production</strong>
 							</td>
-							<td>&nbsp;3-4 min</td>
-							<td>&nbsp;$65</td>
-							<td>18 - 29</td>
-						</tr>
-						<tr>
-							<td>
-								<strong>&nbsp;Mega Production</strong>
-								<br /><span class="description">(30+)</span><br />
-							</td>
-							<td>&nbsp;5-6 min<br /></td>
-							<td>&nbsp;$65</td>
-							<td>30+</td>
+							<td class="second">5-6 min</td>
+							<td class="third">$65</td>
+							<td class="fourth">30+</td>
 						</tr>
 					</tbody>
 				</table>
@@ -289,37 +312,33 @@
 					<h2 class="block__title-inverted">Age Divisions & Categories</h2>
 				</div>
 
-				<table class="pricing col-lg-6 col-xl-6">
+				<table class="age col-lg-6 col-xl-6">
 					<thead>
 						<tr>
 							<th>DIVISION</th>
-							<th>AGE<br /></th>
+							<th>AGE</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td><strong>&nbsp;MINI</strong> <br /></td>
-							<td>7 under<br /></td>
+							<td class="first"><strong>MINI</strong></td>
+							<td class="second">7 under</td>
 						</tr>
 						<tr>
-							<td><strong>&nbsp;TEEN</strong><br /></td>
-							<td>8 - 11<br /></td>
+							<td class="first"><strong>TEEN</strong></td>
+							<td class="second">8 - 11</td>
 						</tr>
 						<tr>
-							<td>
-								<strong>&nbsp;JUNIOR</strong><br /><span class="description"
-									>(4-9 dancers)</span
-								><br />
+							<td class="first">
+								<strong>JUNIOR</strong>
 							</td>
-							<td>12 - 15<br /></td>
+							<td class="second">12 - 15</td>
 						</tr>
 						<tr>
-							<td>
-								<strong>&nbsp;SENIOR</strong><br /><span class="description"
-									>(10-17 dancers)</span
-								><br />
+							<td class="first">
+								<strong>SENIOR</strong>
 							</td>
-							<td>&nbsp;16 - 18</td>
+							<td class="second">16 - 18</td>
 						</tr>
 					</tbody>
 				</table>
@@ -528,18 +547,17 @@
 
 				<div class="container mt-4 mb-4 col-xl-10">
 					<p>
-						<span class="inline-h3">COMPETITIVE:&nbsp;</span>Dance studio
-						dancers competing for critiques & awards.
+						<span class="inline-h3">COMPETITIVE:</span>Dance studio dancers
+						competing for critiques & awards.
 					</p>
 					<p>
-						<span class="inline-h3">INDEPENDENT:&nbsp;</span>Dancer not
-						associated with a dance studio competing for critiques & awards.
+						<span class="inline-h3">INDEPENDENT:</span>Dancer not associated
+						with a dance studio competing for critiques & awards.
 					</p>
 					<p>
-						<span class="inline-h3">EDUCATIONAL:&nbsp;</span>Dance studio
-						dancers or independent dancers <u>performing</u> ONLY for critiques.
-						These routines will NOT be scored and will NOT be eligible for
-						awards.
+						<span class="inline-h3">EDUCATIONAL:</span>Dance studio dancers or
+						independent dancers <u>performing</u> ONLY for critiques. These
+						routines will NOT be scored and will NOT be eligible for awards.
 					</p>
 				</div>
 
@@ -627,19 +645,19 @@
 				</div>
 
 				<div class="container pb-4">
-					<table class="pricing col-lg-6 col-xl-6">
+					<table class="adjudication col-lg-6 col-xl-6">
 						<tbody>
 							<tr>
-								<td id="gold">GOLD</td>
-								<td>170 - 200 points</td>
+								<td class="first" id="gold">GOLD</td>
+								<td class="second">170 - 200 points</td>
 							</tr>
 							<tr>
-								<td id="silver">SILVER</td>
-								<td>140 - 169.9 points</td>
+								<td class="first" id="silver">SILVER</td>
+								<td class="second">140 - 169.9 points</td>
 							</tr>
 							<tr>
-								<td id="bronze">BRONZE</td>
-								<td>70 - 139.9 points</td>
+								<td class="first" id="bronze">BRONZE</td>
+								<td class="second">70 - 139.9 points</td>
 							</tr>
 						</tbody>
 					</table>
@@ -669,33 +687,167 @@
 
 					<div class="container space-between-blocks">
 						<h1 class="block__title text-center">Special Awards</h1>
-
 						<p>
-							<span class="inline-h3">TOP OVERALL:&nbsp;</span> Awarded to the
-							top 3 – 5 Bronze, Silver & Gold routines with the highest
-							adjudication scores.
+							<span class="inline-h3">TOP OVERALL:</span> Awarded to the top 3 –
+							5 Bronze, Silver & Gold routines with the highest adjudication
+							scores.
 						</p>
 						<p>
-							<span class="inline-h3">SNAPS:&nbsp;</span>Awarded to a routine
-							that didn’t make the top 3 – 5 highest adjudication scores, but
-							the judges feel that it was overall very entertaining and a
-							crowd’s favorite.
+							<span class="inline-h3">SNAPS:</span>Awarded to a routine that
+							didn’t make the top 3 – 5 highest adjudication scores, but the
+							judges feel that it was overall very entertaining and a crowd’s
+							favorite.
 						</p>
 						<p>
-							<span class="inline-h3">BOTS CHAMP:&nbsp;</span>The top 3 – 5
-							highest scored Bronze, Silver & Gold routines per Age
-							Division/Category will advance to the Battle of the Studios:
-							Closing Show.
+							<span class="inline-h3">BOTS CHAMP:</span>The top 3 – 5 highest
+							scored Bronze, Silver & Gold routines per Age Division/Category
+							will advance to the Battle of the Studios: Closing Show.
 						</p>
 						<p>
-							<span class="inline-h3">ELITE DANCER AWARD:&nbsp;</span>Awarded to
-							each Age Division participating best dancer.
+							<span class="inline-h3">ELITE DANCER AWARD:</span>Awarded to each
+							Age Division participating best dancer.
 						</p>
 					</div>
 
 					<div class="container">
 						<h1 class="block__title text-center">Scores & Critiques</h1>
-						<div class="outline">RETURN HERE</div>
+						<p>
+							Scores and critiques will be available in your registration studio
+							or dancer portal following the event, Monday afternoon.
+						</p>
+					</div>
+
+					<div class="container space-between-blocks">
+						<h1 class="block__title text-center">Video & Photography</h1>
+						<p>
+							Videotaping and photography with or without flash are strictly
+							prohibited during the event. This is to enforce and protect the
+							children’s safety and privacy as well as the choreographer’s work.
+							Competition photos & videos will be available to buy online.
+						</p>
+					</div>
+
+					<div class="container space-between-blocks">
+						<h1 class="block__title text-center">BOTS Stage</h1>
+						<p>The BOTS stage is 40 x 38.</p>
+					</div>
+
+					<div class="container space-between-blocks">
+						<h1 class="block__title text-center">Admission</h1>
+						<p>Admission to the BOTS competition and closing show is FREE.</p>
+					</div>
+
+					<div class="container space-between-blocks">
+						<h1 class="block__title text-center">Music Requirements</h1>
+						<p>
+							All music must be uploaded to the BOTS registration portal by 2
+							weeks before the event date. Please have a backup for all your
+							music at the time of the event in the format of an iPod, iPhone,
+							or USB drive. Audio files are accepted in …
+						</p>
+					</div>
+
+					<div class="container space-between-blocks">
+						<h1 class="block__title text-center">Props</h1>
+						<p>
+							General props are allowed on the competition but must be taken on
+							and off the stage within two minutes total. Each studio’s sole
+							responsibility is to ensure that its props are taken on and off
+							stage. BOTS staff cannot help with props. The studio is also
+							responsible for ensuring that the stage is completely clean and
+							clear after the routine is finished. We cannot guarantee props
+							above 10' tall to fit on the stage.
+						</p>
+						<p>
+							BOTS does not allow the use of paint, liquids, powder, fire,
+							helium balloons, glass, or any props thrown at the audience.
+						</p>
+						<p>
+							If the studio has “props assistants” on stage during a routine,
+							they must be seen on stage or perform for at least two counts of
+							eight. Props assistants must be registered as students or teacher
+							assistants for the entire competition. Limited to two “assistants”
+							per routine.
+						</p>
+					</div>
+
+					<div class="container space-between-blocks">
+						<h1 class="block__title text-center">Rules & Regulations</h1>
+						<li>
+							All dancers must be registered to compete. All fees are per
+							dancer, per routine. Registration is on a first-come, first-served
+							basis, with final payment in full guaranteeing event
+							participation.
+						</li>
+						<li>
+							For Studio registrations, if a routine is removed before the
+							30-day deadline, the deposit can be applied to the remaining
+							balance for that city/event only. Please understand this is being
+							implemented to prevent last-minute cancellations.
+						</li>
+						<li>
+							No phone or e-mail competition entry forms will be accepted.
+						</li>
+						<li>
+							Studio Directors, Teachers, Choreographers, and Professional
+							Dancers are not allowed to compete. Soloists/Duos/Trios over 18
+							years old are eligible for adjudication only. Routines
+							choreographed by any BOTS judge or staff member will only be
+							considered for adjudication.
+						</li>
+						<li>No coaching from audience or backstage/wings.</li>
+						<li>
+							BOTS is a free admission event. We encourage all registered
+							dancers to invite their families and friends.
+						</li>
+						<li>
+							All routines must be appropriate for family viewing. Inappropriate
+							routines will be stopped and may get disqualified.
+						</li>
+						<li>No jumping off from stage to the audience/judges.</li>
+						<li>
+							Routines entrance and exit are only from stage right and stage
+							left.
+						</li>
+						<li>
+							All routines must appear according to their scheduled sequence
+							unless a BOTS stage staff grants permission otherwise.
+						</li>
+						<li>
+							If BOTS equipment fails, the studio may choose to continue or to
+							re-do the number. If performers' equipment fails, excluding music,
+							the performance must continue or be withdrawn.
+						</li>
+						<li>
+							Competing dancers should be ready 1 hour prior to their scheduled
+							competition time. The Competition may run up to 1 hour early and
+							each dancer will be expected to perform at the earlier time. Also,
+							please keep this in mind if you are leaving the competition and
+							plan on returning for awards.
+						</li>
+						<li>
+							Competition fees must be paid in full 30 days before the event.
+							After this, late fees may apply. Refunds are NOT available under
+							any circumstances unless BOTS cancels an event.
+						</li>
+						<li>
+							BOTS reserves permission to use any photos and videos from the
+							event for advertising and publicity.
+						</li>
+						<li>
+							BOTS judges can determine that a routine may have been entered in
+							the incorrect division/style and can move it to a more fitting
+							division.
+						</li>
+						<li>
+							Entry limits will vary by event. Please look at the corresponding
+							city page for specific entry limits for your tour city.
+						</li>
+						<li>
+							All music must be clean, edited, and appropriate for all ages. It
+							needs to be uploaded for pre-approval two weeks before the event.
+							The penalty fee for a late submission is $10.
+						</li>
 					</div>
 				</div>
 			</div>
@@ -739,14 +891,11 @@
 									><i class="fab fa-instagram"></i
 								></a>
 							</li>
-							<li class="mx-2">
-								<a href="#!" class="footer__link m-0"
-									><i class="fab fa-facebook-square"></i
-								></a>
-							</li>
 
 							<li class="mx-2">
-								<a href="#!" class="footer__link m-0"
+								<a
+									href="mailto:info@battleofthestudios.com"
+									class="footer__link m-0"
 									><i class="fas fa-envelope"></i
 								></a>
 							</li>

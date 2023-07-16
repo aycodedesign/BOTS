@@ -243,11 +243,272 @@ table.pricing th {
 
 table.pricing td {
 	border: 1px solid #b3adad7b;
-	text-align: center;
+	text-align: left;
 	padding: 5px;
 	background: white;
 	color: #313030;
 	font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1600px) {
+	table.pricing td.first {
+		padding-left: 100px;
+	}
+
+	table.pricing td.second {
+		padding-left: 40px;
+	}
+
+	table.pricing td.third {
+		padding-left: 60px;
+	}
+
+	table.pricing td.fourth {
+		padding-left: 90px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	table.pricing td.first {
+		padding-left: 35px;
+	}
+
+	table.pricing td.second {
+		padding-left: 30px;
+	}
+
+	table.pricing td.third {
+		padding-left: 40px;
+	}
+
+	table.pricing td.fourth {
+		padding-left: 60px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	table.pricing td.first {
+		padding-left: 25px;
+	}
+
+	table.pricing td.second {
+		padding-left: 15px;
+	}
+
+	table.pricing td.third {
+		padding-left: 50px;
+	}
+
+	table.pricing td.fourth {
+		padding-left: 70px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	table.pricing td.first {
+		padding-left: 25px;
+	}
+
+	table.pricing td.second {
+		padding-left: 20px;
+	}
+
+	table.pricing td.third {
+		padding-left: 30px;
+	}
+
+	table.pricing td.fourth {
+		padding-left: 45px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	table.pricing td.first {
+		padding-left: 25px;
+	}
+
+	table.pricing td.second {
+		padding-left: 25px;
+	}
+
+	table.pricing td.third {
+		padding-left: 30px;
+	}
+
+	table.pricing td.fourth {
+		padding-left: 35px;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	table.pricing td.first {
+		padding-left: 10px;
+	}
+
+	table.pricing td.second {
+		padding-left: 10px;
+	}
+
+	table.pricing td.third {
+		padding-left: 20px;
+	}
+
+	table.pricing td.fourth {
+		padding-left: 20px;
+	}
+}
+
+table.age {
+	border-collapse: collapse;
+	padding: 5px;
+	margin: 0 auto;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.083);
+}
+
+table.age th {
+	padding: 5px;
+	background: #bb13b5;
+	color: var(--primary-invert);
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+table.age td {
+	border: 1px solid #b3adad7b;
+	text-align: left;
+	padding: 5px;
+	background: white;
+	color: #313030;
+	font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1600px) {
+	table.age td.first {
+		padding-left: 100px;
+	}
+
+	table.age td.second {
+		padding-left: 100px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	table.age td.first {
+		padding-left: 75px;
+	}
+
+	table.age td.second {
+		padding-left: 75px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	table.age td.first {
+		padding-left: 180px;
+	}
+
+	table.age td.second {
+		padding-left: 100px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	table.age td.first {
+		padding-left: 110px;
+	}
+
+	table.age td.second {
+		padding-left: 75px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	table.age td.first {
+		padding-left: 100px;
+	}
+
+	table.age td.second {
+		padding-left: 65px;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	table.age td.first {
+		padding-left: 60px;
+	}
+
+	table.age td.second {
+		padding-left: 60px;
+	}
+}
+
+table.adjudication td {
+	border: 1px solid #b3adad7b;
+	text-align: left;
+	padding: 5px;
+	background: white;
+	color: #313030;
+	font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1600px) {
+	table.age td.first {
+		padding-left: 100px;
+	}
+
+	table.age td.second {
+		padding-left: 100px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	table.adjudication td.first {
+		padding-left: 75px;
+	}
+
+	table.adjudication td.second {
+		padding-left: 75px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	table.adjudication td.first {
+		padding-left: 90px;
+	}
+
+	table.adjudication td.second {
+		padding-left: 110px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	table.adjudication td.first {
+		padding-left: 40px;
+	}
+
+	table.adjudication td.second {
+		padding-left: 75px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	table.adjudication td.first {
+		padding-left: 50px;
+	}
+
+	table.adjudication td.second {
+		padding-left: 65px;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	table.adjudication td.first {
+		padding-left: 15px;
+	}
+
+	table.adjudication td.second {
+		padding-left: 35px;
+	}
 }
 
 #gold {
@@ -300,7 +561,6 @@ table.pricing td span.description {
 	}
 
 	table.pricing td {
-		text-align: center;
 		background: #ffffff;
 		color: #313030;
 		font-size: 1rem;
@@ -1078,8 +1338,11 @@ video {
 }
 
 .inline-h3 {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 1.5rem;
+	background: -webkit-linear-gradient(210deg, #ac22c4, #4c12f1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .block-8-scr {
