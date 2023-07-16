@@ -1657,6 +1657,17 @@ h4.rules-regs__title {
 	font-weight: 600;
 }
 
+/* START CONTACT */
+
+.block-68 {
+	--block-background: var(--secondary);
+	--block-text-color: var(--primary-invert);
+	background: var(--block-background);
+	color: var(--block-text-color);
+}
+
+/* END CONTACT */
+
 /* START FOOTER */
 
 .footer {
