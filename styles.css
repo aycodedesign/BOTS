@@ -34,9 +34,9 @@ html {
 	background: blue;
 }
 
-/* .border {
+.border {
 	border: 1px red solid;
-} */
+}
 
 .twenty img {
 	width: 75%;
@@ -786,6 +786,14 @@ button:focus {
 		margin-top: 3rem;
 		white-space: nowrap;
 	}
+}
+
+input.form-control {
+	background: #ffffffce;
+}
+
+#inputFName {
+	color: var(--secondary);
 }
 
 /* END BLOCK-24 */
@@ -1669,6 +1677,7 @@ h4.rules-regs__title {
 	left: 50%;
 	transform: translateY(-50%);
 	transform: translateX(-50%);
+	width: 75%;
 }
 
 .block-26 h2 {
