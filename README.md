@@ -1,3 +1,3 @@
 # BOTS
 
-2. create coming soon page
+- create coming soon page

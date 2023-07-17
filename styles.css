@@ -592,7 +592,7 @@ table.pricing td span.description {
 	--primary: #bb13b5;
 	--secondary: #1c1a1a;
 	--primary-invert: #f7f7f7;
-	--secondary-invert: #000;
+	--secondary-invert: linear-gradient(135deg, #292929, #212121);
 	--gradient-primary: linear-gradient(230deg, #c33381, #4c12f1);
 	--gradient-secondary: linear-gradient(
 		90deg,
@@ -1683,6 +1683,20 @@ h4.rules-regs__title {
 .block-26 h2 {
 	font-weight: bold;
 	color: var(--primary);
+}
+
+.contact {
+	border: 1px #393939 solid;
+	border-radius: 0.5rem;
+	border-color: linear-gradient(
+		230deg,
+		#ac22c4,
+		#4c12f1
+	); /* Neon border on hover */
+	box-shadow: 0 0 10px #4c12f1, 0 0 10px #4c12f1, 0 0 10px #ac22c4; /* Glow effect */
+	background: var(--secondary-invert);
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 /* END CONTACT */
 
