@@ -29,6 +29,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	background: var(--gradient-secondary);
+}
+
 .outline {
 	color: red;
 	background: blue;
@@ -1699,6 +1703,18 @@ h4.rules-regs__title {
 	padding-bottom: 3rem;
 }
 /* END CONTACT */
+
+/* START COMING SOON */
+
+.text-right {
+	text-align: right;
+}
+
+.purple-background {
+	background: linear-gradient(230deg, #c33381, #4c12f1);
+}
+
+/* END COMING SOON */
 
 /* START FOOTER */
 
