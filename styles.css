@@ -1702,6 +1702,50 @@ h4.rules-regs__title {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
+
+@media screen and (max-width: 991px) {
+	.contact {
+		border: 0;
+
+		border-color: linear-gradient(
+			230deg,
+			#ac22c400,
+			#4c12f100
+		); /* Neon border on hover */
+		box-shadow: 0 0 10px #4c12f100, 0 0 10px #4c12f100, 0 0 10px #ac22c400; /* Glow effect */
+		background: transparent;
+		padding-top: 0;
+		padding-bottom: 0;
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.contact {
+		border: 0;
+
+		border-color: linear-gradient(
+			230deg,
+			#ac22c400,
+			#4c12f100
+		); /* Neon border on hover */
+		box-shadow: 0 0 10px #4c12f100, 0 0 10px #4c12f100, 0 0 10px #ac22c400; /* Glow effect */
+		background: transparent;
+		padding-top: 0;
+		padding-bottom: 0;
+		position: relative;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.block-26 {
+		top: 10%;
+		/* left: 0;
+		transform: translateX(0); */
+		width: 90%;
+	}
+}
+
 /* END CONTACT */
 
 /* START COMING SOON */
