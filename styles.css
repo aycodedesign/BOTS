@@ -162,7 +162,7 @@ td.table-date {
 	/* color: var(--primary); */
 	color: var(--primary-invert);
 	font-weight: 700;
-	font-size: 2.5rem !important;
+	font-size: 2rem !important;
 	max-width: 50%;
 	text-align: left !important;
 }
@@ -862,7 +862,7 @@ input.form-control {
 .btn-secondary:focus,
 .btn-secondary:hover {
 	background: var(--primary-invert);
-	color: var(--secondary-invert);
+	color: var(--secondary);
 }
 
 .btn-primary--empty,
@@ -991,7 +991,8 @@ h2.block__title {
 
 button.neon-button a {
 	color: var(--primary-invert);
-	padding: 0.75rem 2rem;
+	padding: 1rem 2rem;
+	position: relative;
 }
 
 a.nav-link:hover,
@@ -1009,8 +1010,8 @@ a {
 }
 
 .bg-light {
-	background: #1c1a1ae9 !important;
-	box-shadow: 0 5px 5px #1c1a1a47;
+	background: #1c1a1a59 !important;
+	/* box-shadow: 0 5px 5px #1c1a1a47; */
 }
 
 .justify-content-center {
