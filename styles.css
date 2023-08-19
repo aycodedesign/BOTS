@@ -981,6 +981,10 @@ h2.block__title {
 	padding: 0 5rem;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+	color: var(--primary-invert);
+}
+
 .navbar-brand {
 	padding: 0.5rem 0;
 }
